@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;
+	margin:0px;
+	line-height:20px;
+}
+body{hight:100%;
+	background-color:#f3fle9;
+	position:relative;
+}
+img{border:2px solid #F8C77D}
+#main_block{font-family:黑体;
+	font-size:16px;
+	color:#464646;
+	overflow:hidden;
+width:752px;
+	margin:auto;
+}
+.content_main{width:720px;
+	float:left;
+	padding:20px 0 10px 20px;
+}
+.box_details{padding:10px 0 10px 0;
+	margin:10px 20px 10px 0;
+	clear:both;
+}
+.box_details p{padding:5px 15px 5px 15px;
+	text-indent:2em;
+}
+img.right{float:right;
+	padding:0 0 0 3px
+}
+
