@@ -1,17 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 .test ul{list-style:none;} 
-.test li{float:left;}
-.test li{float:left;width:100px;} 
-.test{width:700px;margin: auto;}
+.test li{float:left;width:200px;} 
+.test{width:1500px;margin: auto;}
 .test a:link{color:#666;background:#CCC;text-decoration:none;}
 .test a:visited{color:#666;text-decoration:underline;}
 .test a:hover{color:#FFF; font-weight:bold;
 text-decoration:underline;background:#F00;}
-.test a{display:block;text-align:center;height:30px;}
-.test li{float:left;width:100px;background:#CCC;margin-left:3px;line-height:30px;}
-.test a:link{color:#666;background:url("../images/fengjing1.jpg") #CCC no-repeat 0px 0px;text-decoration:none;}
-.test a:hover{color:#FFF; font-weight:bold;text-decoration:none;
-background:url(arrow_on.gif) #F00 no-repeat 5px 12px;} 
-
-
+.test a{display:block;text-align:center;height:50px;margin:5px;font-size: 24px}
+.test li{float:left;width:200px;background:#CCC;margin-left:5px;line-height:70px;}
+.test a:link{color:#F00;background:url("../images/fengjing1.jpg") #CCC no-repeat 0px 0px;text-decoration:none;}
+.test a:hover{color:#FFF; font-weight:bold;text-decoration:none;} 
+div{margin: 10px;clear: both}
+.bigbox{width:1240px;height: 654px;margin: auto}
+.contact-left1{width: 475px;color:#212529;font:"Helvetica Neue", Helvetica, Arial, "sans-serif";position: relative;padding: 32px 16px 0 10;background:#E9E1E2;height: 190px;text-align: center;font-size: 35px; float: left}
+.contact-left3{width: 475px;color:#212529;font:"Helvetica Neue", Helvetica, Arial, "sans-serif";position: relative;padding: 32px 16px 0 10;background:#E7E5E5;height: 210px;text-align: center;font-size: 35px; float: left;display: inline}
+.contact-left2{width: 475px;color:#212529;font:"Helvetica Neue", Helvetica, Arial, "sans-serif";position: relative;padding: 32px 16px 0 10;background:#E7E5E5;height: 190px;text-align: center;font-size: 24px; float: left}
+.bigbox_right{width:730px;height:629px;position:relative;top: -639px;left:500px;background-color: #E7E5E5;background-image: image()}
+.good {width: 575px;color:#212529;font:"Helvetica Neue", Helvetica, Arial, "sans-serif";position: relative;padding: 32px 16px 0 10;background:#E7E5E5;height: 350px;text-align: center;font-size: 35px; display: inline;position: relative;top: 0px;left:700px}
