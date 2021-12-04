@@ -99,7 +99,7 @@ font-size: 14px;  float: left;}
 .index-sec1 .a2{ display: block; width: 150px; height: 58px; border:1px solid #E0E0E0; line-height: 58px; text-align: center; color: #666666;
 font-size: 14px; float: left;}
 .index-sec1 .div2{ margin-top: 50px;}
-.index-sec1 .right{position: absolute; right: 50px; top: 10px; }
+.index-sec1 .right{position: absolute; right: 150px; top: 10px; }
 .index-sec1 .greenbg{ position: absolute; background: #223990; height: 550px; top: 0; right: 0; width: 880px; z-index: -1;}
 .index-sec1 .smallImg img{ display: block; width: 129px; height: 120px; overflow: hidden;}
 .index-sec1 .bigImg{ height: 750px !important; position: relative;}
@@ -135,23 +135,7 @@ position: absolute; top: 0; right:50px; line-height: 30px;}
 .tit h2{  font-size: 30px; font-weight: bold; color: #333; text-align: center;}
 .tit h3{  font-size:18px; font-weight: bold; color: #555; text-align: center; padding: 20px 0;}
 .tit img{ display: block; margin: 0 auto;}
-.index-sec3{ padding: 50px 0;margin: auto}
-.index-sec3 .w1240{ position: relative;}
-.index-sec3 .bd{ padding-top: 10px; }
-.index-sec3 .bd .tempWrap{  width: 600px !important; margin: auto}
-.index-sec3 .bd li{ width: 285px; box-shadow: 0 0 1px 0px rgba(0,0,0,0.1); margin: 5px 12px 5px 10px;}
-.index-sec3 .bd figcaption{ padding:2px 2px;}
-.index-sec3 .bd figure,.index-sec3 .bd figure img{ display: block; width:297px ; height: 190px; overflow:hidden; transition: all 1s;}
-.index-sec3 .bd .p1{ color: #333; font-size: 20px; }
-.index-sec3 .bd .p2{ color: #666; font-size: 14px; padding-top: 10px;}
-.index-sec3 .prev{ position: absolute; left: 90px; top: 50%; cursor: pointer; background: url(../img/icon2.png) no-repeat left top;
-width: 35px; height: 55px; transition: all 0.6s;}
-.index-sec3 .next{ position: absolute; right: 70px; top: 50%;  cursor: pointer;  background: url(../img/icon2.png) no-repeat right top;
-width: 35px; height: 55px; transition: all 0.6s;}
-.index-sec3 .prev:hover{ background-position: left bottom;}
-.index-sec3 .next:hover{ background-position: right bottom;}
-.index-sec3 .bd li:hover figure img{ transform: scale(1.1);}
-.index-sec3 .bd li:hover .p1{ color: #223990;}
+
 
 
 .index-sec4{ padding: 50px 0; background: #F5F5F5;}
@@ -168,6 +152,7 @@ width: 35px; height: 55px; transition: all 0.6s;}
 
 
 .footer{ background: #040f2c; padding: 50px 0 10px 0;}
+.header{ background: #77F6DF; padding: 10px 0 0px 0;height: 40px}
 .footer .div1{ padding: 25px 0; border-top: 1px solid #363f56; border-bottom: 1px solid #363f56;}
 .footer .div1 li{float: left; margin-left: 50px; margin-top: 15px;}
 .footer .div1 li a{ color: #fff; font-size: 15px; transition: all 0.6s;}
@@ -207,8 +192,8 @@ left: 50%; transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%)
 .casepage li:hover .m-b{ height: 50%;}
 .casepage li:hover .m-t{ height: 50%;}
 .casepage li:hover .mask img{ opacity: 1; filter: alhpa(opacity=100);  }
-
-
+.fanren{width:855px;height: 329px;margin: auto;background: #C3BCBC}
+.fanren img{width:200px;height:150px;float: left;padding: 8px 0 0 8px;border: 2px solid #ccc;border-top-style: dotted;list-style:none;border-radius: 15px;transform: scale(1);transition: all 0.9s;}
 
 .fenye{ text-align: center;  padding:35px 0 0px 0; }
 .fenye a{ display: inline-block;  padding: 0 20px; height: 40px; border:1px solid #eee; background: #fff;
